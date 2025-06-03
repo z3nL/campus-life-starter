@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Campus Life</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header id="banner">
@@ -10,17 +11,73 @@
     </header>
 
     <nav id="navigation">
-        <p>Student Organizations</p>
-        <p>Upcoming Events</p>
-        <p>Campus News</p>
+        <ul>
+            <li> <a href="#orgs">Student Organizations</a> </li>
+            <li> <a href="#events">Upcoming Events</a> </li>
+            <li> <a href="#news">Campus News</a> </li>
+        </ul>
     </nav>
 
     <section id="orgs">
         <h2>Student Organizations</h2>
+
+        <article id="org">
+            <img src="./assets/basketball.jpeg" alt="Photo of the LeBron James and Dwayne Wade Dunk">
+            <h3>Basketball Club</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <article id="org">
+            <img src="./assets/ubw.webp" height="200" alt="Photo of underwater basket weaving">
+            <h3>Underwater Basket Weaving Club</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
+
+        <larticle id="org">
+            <img src="./assets/fencing.webp" height="200" alt="Photo of fencing">
+            <h3>Fencing Club</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </article>
     </section>
 
     <section id="events">
         <h2>Upcoming Events</h2>
+
+        <article id="event">
+            <div id="eventimg">
+                <img src="./assets/lasertag.webp" height="200" alt="Photo of laser tag">
+                <h3>Date: 06/05</h3>
+            </div>
+            <a href="https://www.metacareers.com/careerprograms/pathways/metauniversity">
+                <h3>Laser Tag</h3>
+            </a>
+            <p>Time: 17:38</p>
+            <p>Location: Wherever Laser Tag is</p>
+        </article>
+
+        <article id="event">
+            <div id="eventimg">
+                <img src="./assets/meta.png" height="200" alt="Photo of Meta's logo">
+                <h3>Date: 06/05</h3>
+            </div>
+            <a href="https://www.metacareers.com/careerprograms/pathways/metauniversity">
+                <h3>Meetup at The Bowl</h3>
+            </a>
+            <p>Time: 17:38</p>
+            <p>Location: The Bowl</p>
+        </article>
+
+        <article id="event">
+            <div id="eventimg">
+                <img src="./assets/scbw.jpg" height="200" alt="Photo of Santa Cruz Beach Boardwalk">
+                <h3>Date: 06/05</h3>
+            </div>
+            <a href="https://www.metacareers.com/careerprograms/pathways/metauniversity">
+                <h3>Santa Cruz Beach Boardwalk Meetup</h3>
+            </a>
+            <p>Time: 17:38</p>
+            <p>Location: Santa Cruz Beach</p>
+        </article>
     </section>
 
     <section id="news">
